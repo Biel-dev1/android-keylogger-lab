@@ -39,10 +39,10 @@ O fluxo de dados ocorre da seguinte maneira:
 
 #### Parte 1: Configurar o Servidor (Kali Linux)
 
-1.  Clone este repositório ou copie o arquivo `receptor.py` para sua máquina.
+1.  Clone este repositório ou copie o arquivo `recebimento.py` para sua máquina.
 2.  Abra um terminal e execute o servidor:
     ```bash
-    python3 receptor.py
+    python3 recebimento.py
     ```
 3.  O servidor começará a escutar na porta 9001. Anote o endereço IP da sua máquina Kali.
 
@@ -63,7 +63,7 @@ O fluxo de dados ocorre da seguinte maneira:
 
 1.  Com o serviço ativo, digite em qualquer campo de texto no dispositivo Android (navegador, app de notas, etc.).
 2.  Observe o terminal do servidor. As teclas digitadas devem aparecer em tempo real, com data e hora.
-3.  Um arquivo `keylog.txt` será criado na mesma pasta do script `receptor.py`, armazenando um log de tudo o que foi capturado.
+3.  Um arquivo `keylog.txt` será criado na mesma pasta do script `recebimento.py`, armazenando um log de tudo o que foi capturado.
 
 ## 4. Descobertas e Análise
 
