@@ -1,0 +1,12 @@
+<api type="debug" assembly-name="teste" mvid="cd12a822d3aa4b38a01270df4036299f">
+  <java-to-managed>
+    <entry java-name="crc640451cd8558ae218f/MainActivity" managed-name="teste.MainActivity, teste" managed-type-token-id="33554442" />
+    <entry java-name="crc640451cd8558ae218f/MainApplication" managed-name="teste.MainApplication, teste" managed-type-token-id="33554443" />
+    <entry java-name="com/companyname/teste/MyAccessibilityService" managed-name="teste.Platforms.Android.MyAccessibilityService, teste" managed-type-token-id="33554445" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc640451cd8558ae218f/MainActivity" managed-name="teste.MainActivity, teste" managed-type-token-id="33554442" />
+    <entry java-name="crc640451cd8558ae218f/MainApplication" managed-name="teste.MainApplication, teste" managed-type-token-id="33554443" />
+    <entry java-name="com/companyname/teste/MyAccessibilityService" managed-name="teste.Platforms.Android.MyAccessibilityService, teste" managed-type-token-id="33554445" />
+  </managed-to-java>
+</api>

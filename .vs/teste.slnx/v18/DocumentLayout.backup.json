@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\source\\repositorio\\teste\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BBF2A9-4908-2C29-3EEB-D1B6D5828D93}|teste.csproj|c:\\users\\administrador\\source\\repositorio\\teste\\platforms\\android\\myaccessibilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BBF2A9-4908-2C29-3EEB-D1B6D5828D93}|teste.csproj|solutionrelative:platforms\\android\\myaccessibilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BBF2A9-4908-2C29-3EEB-D1B6D5828D93}|teste.csproj|c:\\users\\administrador\\source\\repositorio\\teste\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D8BBF2A9-4908-2C29-3EEB-D1B6D5828D93}|teste.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BBF2A9-4908-2C29-3EEB-D1B6D5828D93}|teste.csproj|c:\\users\\administrador\\source\\repositorio\\teste\\platforms\\android\\resources\\xml\\accessibility_service_config.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{D8BBF2A9-4908-2C29-3EEB-D1B6D5828D93}|teste.csproj|solutionrelative:platforms\\android\\resources\\xml\\accessibility_service_config.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BBF2A9-4908-2C29-3EEB-D1B6D5828D93}|teste.csproj|c:\\users\\administrador\\source\\repositorio\\teste\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BBF2A9-4908-2C29-3EEB-D1B6D5828D93}|teste.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repositorio\\teste\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repositorio\\teste\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-27T00:44:54.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyAccessibilityService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repositorio\\teste\\Platforms\\Android\\MyAccessibilityService.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MyAccessibilityService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repositorio\\teste\\Platforms\\Android\\MyAccessibilityService.cs",
+              "RelativeToolTip": "Platforms\\Android\\MyAccessibilityService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:46:03.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "accessibility_service_config.xml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repositorio\\teste\\Platforms\\Android\\Resources\\xml\\accessibility_service_config.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\Resources\\xml\\accessibility_service_config.xml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repositorio\\teste\\Platforms\\Android\\Resources\\xml\\accessibility_service_config.xml",
+              "RelativeToolTip": "Platforms\\Android\\Resources\\xml\\accessibility_service_config.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-26T22:44:06.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repositorio\\teste\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repositorio\\teste\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:30:49.318Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
