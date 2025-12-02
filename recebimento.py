@@ -13,7 +13,6 @@ def main():
 
     # Cria um socket TCP/IP
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        # Este bloco está no nível 2 de indentação
         s.bind((HOST, PORT))
         s.listen()
 
@@ -29,10 +28,10 @@ def main():
                     if not data:
                         continue
 
-                    # Decodifica os dados e remove espaços em branco extras
+                    # Decodifica e remove espaços em branco extras
                     log_entry = data.decode('utf-8').strip()
 
-                    # Pega a data e hora atual
+                    # Pega a data e hora 
                     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
                     # Formata a linha de log
@@ -43,7 +42,6 @@ def main():
 
                     # Salva no arquivo de log
                     with open(LOG_FILE, 'a') as f:
-                        # Este bloco está no nível 5 de indentação
                         f.write(formatted_log + '\n')
 
             except KeyboardInterrupt:
