@@ -12,16 +12,26 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
+    - name: Setup JDK 11  # Necessário pro Android build
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'microsoft'
+        java-version: '11'
+
     - name: Setup .NET 8
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x'
 
+    - name: Install MAUI Workload  # Essencial pro MAUI
+      run: dotnet workload install maui
+
     - name: Restore dependencies
       run: dotnet restore
 
-    - name: Build APK (Release)
-      run: dotnet publish -f:net8.0-android -c:Release -p:AndroidSigningKeyPass=123456 -p:AndroidSigningStorePass=123456 /p:PublishSingleFile=true
+    - name: Build APK (Release, Debug Signing)
+      run: dotnet publish -f:net8.0-android -c:Release /p:AndroidPackageFormat=apk --no-restore
+      # Debug signing pra testes; pra produção, adicione keystore secrets depois
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
